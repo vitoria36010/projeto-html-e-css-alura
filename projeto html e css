@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Meu Portfólio</div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobre" class="sobre">
+    <h1>Sobre Mim</h1>
+    <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis.</p>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h1>Meus Projetos</h1>
+    <div class="projeto-card">
+      <img src="projeto1.jpg" alt="Projeto 1">
+      <h2>Projeto 1</h2>
+      <p>Descrição do projeto 1.</p>
+    </div>
+    <div class="projeto-card">
+      <img src="projeto2.jpg" alt="Projeto 2">
+      <h2>Projeto 2</h2>
+      <p>Descrição do projeto 2.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h1>Contato</h1>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Meu Portfólio</p>
+  </footer>
+</body>
+</html>
+git init
+git add .
+git commit -m "Site de portfólio responsivo"
